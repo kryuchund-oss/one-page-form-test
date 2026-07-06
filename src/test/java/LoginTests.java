@@ -88,7 +88,7 @@ public void shortPasswordAuthorizationTest() {
         $("[data-testid=login-input]").setValue("User67");
         $("[data-testid=password-input]").setValue("234567");
         $("[data-testid=submit-button]").click();
-        $("[data-testid=error-message]").shouldHave(text("Login and password are required (minimum 3 and 6 characters)"));
+        $("[data-testid=error-message]").shouldHave(text("Wrong login or password"));
     }
 
 }
