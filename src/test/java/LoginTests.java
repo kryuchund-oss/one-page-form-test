@@ -98,7 +98,6 @@ public class LoginTests extends TestBase {
         $("[data-testid=submit-button]").click();
         $("[data-testid=error-message]").shouldHave(text("Wrong login or password"));
     }
-
 }
 
 
