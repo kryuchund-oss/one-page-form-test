@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-07-06T18:17:35.908Z" hostname="QMS-DKR-11" time="16.575">
+<testsuite name="LoginTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-07-06T18:23:28.494Z" hostname="QMS-DKR-11" time="17.965">
   <properties/>
-  <testcase name="successfulAuthorizationWithPressEnter()" classname="LoginTests" time="1.964"/>
-  <testcase name="emptyLoginAndPasswordAuthorizationTest()" classname="LoginTests" time="2.188"/>
-  <testcase name="wrongPasswordAuthorizationTest()" classname="LoginTests" time="2.031"/>
-  <testcase name="wrongLoginAndPasswordAuthorizationTest()" classname="LoginTests" time="2.154"/>
-  <testcase name="emptyLoginAuthorizationTest()" classname="LoginTests" time="1.99"/>
-  <testcase name="successfulAuthorization()" classname="LoginTests" time="2.041"/>
-  <testcase name="shortPasswordAuthorizationTest()" classname="LoginTests" time="2.212"/>
-  <testcase name="emptyPasswordAuthorizationTest()" classname="LoginTests" time="1.956"/>
+  <testcase name="successfulAuthorizationWithPressEnter()" classname="LoginTests" time="2.091"/>
+  <testcase name="emptyLoginAndPasswordAuthorizationTest()" classname="LoginTests" time="1.713"/>
+  <testcase name="wrongPasswordAuthorizationTest()" classname="LoginTests" time="1.682"/>
+  <testcase name="wrongLoginAndPasswordAuthorizationTest()" classname="LoginTests" time="1.992"/>
+  <testcase name="emptyLoginAuthorizationTest()" classname="LoginTests" time="1.776"/>
+  <testcase name="successfulAuthorization()" classname="LoginTests" time="1.903"/>
+  <testcase name="shortPasswordAuthorizationTest()" classname="LoginTests" time="3.648"/>
+  <testcase name="emptyPasswordAuthorizationTest()" classname="LoginTests" time="3.123"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 [Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 [Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 [Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 [Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 [Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 [Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 [Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:17:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:23:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 ]]></system-err>
