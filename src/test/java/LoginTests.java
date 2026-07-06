@@ -67,7 +67,7 @@ public class LoginTests extends TestBase {
         $("[data-testid=login-input]").setValue("r1");
         $("[data-testid=password-input]").setValue("password1");
         $("[data-testid=submit-button]").click();
-        $("[data-testid=error-message]").shouldHave(text("Password must be at least 6 characters"));
+        $("[data-testid=error-message]").shouldHave(text("Login must be at least 3 characters"));
     }
     @Test
     public void emptyLoginAuthorizationTest() {
