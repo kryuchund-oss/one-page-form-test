@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-06T18:12:29.278Z" hostname="QMS-DKR-11" time="2.012">
+<testsuite name="LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-06T18:13:18.781Z" hostname="QMS-DKR-11" time="2.29">
   <properties/>
-  <testcase name="emptyPasswordAuthorizationTest()" classname="LoginTests" time="1.979"/>
+  <testcase name="emptyPasswordAuthorizationTest()" classname="LoginTests" time="2.259"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-Jul 06, 2026 9:12:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 06, 2026 9:13:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.16.1 / Selenium 4.43.0 / chrome 150.0.7871.46 windows
 ]]></system-err>
