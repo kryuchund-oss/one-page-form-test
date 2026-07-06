@@ -40,8 +40,8 @@ public class LoginTests extends TestBase {
         $("[data-testid=error-message]").shouldHave(text("Wrong login or password"));
     }
 
-@Test
-public void shortPasswordAuthorizationTest() {
+    @Test
+    public void shortPasswordAuthorizationTest() {
     open("/login.html");
 
     $("[data-testid=login-input]").setValue("user1");
@@ -79,7 +79,6 @@ public void shortPasswordAuthorizationTest() {
         $("[data-testid=submit-button]").click();
         $("[data-testid=error-message]").shouldHave(text("Login and password are required (minimum 3 and 6 characters)"));
     }
-
 
     @Test
     public void wrongLoginAndPasswordAuthorizationTest() {
